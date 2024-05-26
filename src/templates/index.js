@@ -145,7 +145,9 @@ const IndexPage = ({ data, pageContext }) => {
         <Pagination
           page={pageContext.currentPage}
           numOfPages={pageContext.numPages}
-          rounded="none"
+          rounded="yes"
+          prev="poprz."
+          next="nast."
         />
       </div>
 
