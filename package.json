@@ -13,7 +13,8 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "lint": "eslint --ext .js,.jsx ."
+    "lint": "eslint --ext .js,.jsx .",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "dependencies": {
     "@fontsource/playfair-display": "^4.5.1",
@@ -39,6 +40,7 @@
     "gatsby-source-filesystem": "^5.2.0",
     "gatsby-source-flotiq": "^5.0.0",
     "gatsby-transformer-sharp": "^5.2.0",
+    "gh-pages": "^6.1.1",
     "moment": "^2.29.1",
     "node": "^18.5.0",
     "react": "^18.2.0",

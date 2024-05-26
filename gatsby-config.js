@@ -10,6 +10,7 @@ require('dotenv').config({
 });
 
 module.exports = {
+    pathPrefix: "/ztb",
     siteMetadata: {
         title: 'ZTB',
         description: 'Zakład Transportowo Budowlany Krzysztof Wach',
