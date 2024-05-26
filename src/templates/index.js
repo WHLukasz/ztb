@@ -49,6 +49,9 @@ const IndexPage = ({ data, pageContext }) => {
             position: 'relative',
           }}
         />
+        <div className="title-overlay">
+          <h1 className="professional-title">Zakład Transportowo-Budowlany Krzysztof Wach</h1>
+        </div>
       </div>
 
       {/* Treść pod głównym zdjęciem */}
