@@ -155,28 +155,28 @@ const IndexPage = ({ data, pageContext }) => {
       <div className="bg-green-400 py-4"></div> {/* Ciemnozielony pasek nad sekcją */}
       <div className="bg-green-100 py-8">
         <div className="max-w-4xl mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center text-green-900 mb-4">
+          <h2 className="text-3xl font-bold text-center mb-4">
             Nasza troska o środowisko
           </h2>
-          <p className="text-lg text-center text-green-800 mb-6">
+          <p className="text-lg text-center mb-6">
             Jesteśmy zobowiązani do dbania o środowisko i podejmowania działań na rzecz zrównoważonego rozwoju.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="bg-white rounded-lg p-6 shadow-md">
-              <h3 className="text-xl font-semibold text-green-900 mb-2">Energia odnawialna</h3>
-              <p className="text-lg text-green-800">
+              <h3 className="text-xl font-semibold mb-2">Energia odnawialna</h3>
+              <p className="text-lg">
                 Wykorzystujemy energię odnawialną w naszych operacjach, aby zmniejszyć nasz wpływ na środowisko.
               </p>
             </div>
             <div className="bg-white rounded-lg p-6 shadow-md">
-              <h3 className="text-xl font-semibold text-green-900 mb-2">Recykling</h3>
-              <p className="text-lg text-green-800">
+              <h3 className="text-xl font-semibold mb-2">Recykling</h3>
+              <p className="text-lg">
                 Promujemy recykling i ograniczamy ilość odpadów produkcyjnych, aby ograniczyć nasz ślad węglowy.
               </p>
             </div>
             <div className="bg-white rounded-lg p-6 shadow-md">
-              <h3 className="text-xl font-semibold text-green-900 mb-2">Ochrona przyrody</h3>
-              <p className="text-lg text-green-800">
+              <h3 className="text-xl font-semibold mb-2">Ochrona przyrody</h3>
+              <p className="text-lg">
                 Angażujemy się w projekty ochrony przyrody i działań na rzecz zachowania różnorodności biologicznej.
               </p>
             </div>
