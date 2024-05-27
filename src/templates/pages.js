@@ -17,7 +17,7 @@ const PageTemplate = ({ data }) => {
                 />
             </Helmet>
             
-            <div className="image-container relative">
+            <div className="image-container relative separate-container">
                 <div
                     className="absolute inset-0 w-full h-full"
                     style={{
