@@ -1,16 +1,13 @@
 import React from 'react';
 import { graphql, Link } from 'gatsby';
 import { Helmet } from 'react-helmet';
-import { Announcement, Pagination } from 'flotiq-components-react';
+import { Pagination } from 'flotiq-components-react';
 import Layout from '../layouts/layout';
 import ProjectCards from '../sections/ProjectCards';
 import { useLocation } from '@reach/router';
-import { GoogleMap, Marker, LoadScript } from '@react-google-maps/api';
-import ProjectGallery from '../components/project/ProjectGallery';
 import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 import '../style/global.css';
 import AutoScrollGallery from '../components/project/AutoScrollGallery';
-import { pathPrefix } from '../../gatsby-config';
 
 const IndexPage = ({ data, pageContext }) => {
   const projects = data.allProject.nodes;
@@ -146,7 +143,7 @@ const IndexPage = ({ data, pageContext }) => {
         <Pagination
           page={pageContext.currentPage}
           numOfPages={pageContext.numPages}
-          baseUrl={pathPrefix}
+          baseUrl="/ztb/"
           rounded="yes"
           prev="poprz."
           next="nast."
