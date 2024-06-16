@@ -10,6 +10,7 @@ import ProjectGallery from '../components/project/ProjectGallery';
 import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 import '../style/global.css';
 import AutoScrollGallery from '../components/project/AutoScrollGallery';
+import { pathPrefix } from '../../gatsby-config';
 
 const IndexPage = ({ data, pageContext }) => {
   const projects = data.allProject.nodes;
@@ -145,6 +146,7 @@ const IndexPage = ({ data, pageContext }) => {
         <Pagination
           page={pageContext.currentPage}
           numOfPages={pageContext.numPages}
+          baseUrl={pathPrefix}
           rounded="yes"
           prev="poprz."
           next="nast."
