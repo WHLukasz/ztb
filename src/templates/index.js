@@ -4,14 +4,14 @@ import { Helmet } from 'react-helmet';
 import { Pagination } from 'flotiq-components-react';
 import Layout from '../layouts/layout';
 import ProjectCards from '../sections/ProjectCards';
-import { useLocation } from '@reach/router';
+// import { useLocation } from '@reach/router';
 import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 import '../style/global.css';
 import AutoScrollGallery from '../components/project/AutoScrollGallery';
 
 const IndexPage = ({ data, pageContext }) => {
   const projects = data.allProject.nodes;
-  const location = useLocation();
+  // const location = useLocation();
 
     // google maps
   // const mapContainerStyle = { //parametry gla google maps
